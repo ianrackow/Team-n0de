@@ -13,9 +13,9 @@ some other page on the site. Not knowing how to find it, I started with a google
 The second link found, https://nodesecurity.io/advisories/geddy-directory-traversal, shows a method of getting the static directory
 of a Geddy app. <br><br>
 
-<b>Overview</b><br>
+Overview:<br>
 Geddy static file serving allows directory traversal with a URI encoded path.<br>
-Example: http://localhost:4000/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd <br><br>
+Example: <br>http://localhost:4000/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd <br><br>
 
 A little more research on what this does shows that Geddy applications have a vulnerability which causes them to serve a static file when
 the URL route is not matched on the server. With this in mind, we try that URL path with the link provided in the problem: <br>
