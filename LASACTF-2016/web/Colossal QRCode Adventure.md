@@ -1,7 +1,7 @@
 <b>Problem:</b><br>
 There is a flag hidden somewhere in the dungeon<br><br>
 <b>Solution:</b><br>
-This problem was pretty straightforward, except for installing a stupid python qrcode module. I didn't want to deal with some random zbar crap, so I just downloaded some random library stuff on kali. In 3 qrcodes, the program decoded the message to be a series of numbers [???], so that's what part of the code is for; I just manually decoded those 3. Whatever, you know. After 100 qrcodes, the program spit out the flag. Voila.<br><br>
+This problem was pretty straightforward, except for installing a stupid python qrcode module. I didn't want to deal with some random zbar crap, so I just downloaded some library stuff on kali. In 3 qrcodes, the program decoded the message to be a series of numbers [???], so that's what part of the code is for; I just manually decoded those 3. Whatever, you know. After 100 qrcodes, the program spit out the flag. Voila.<br><br>
 ```
 sudo apt-get install librsvg2-bin
 sudo apt-get install python-qrtools
