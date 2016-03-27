@@ -26,7 +26,7 @@ f.close()
 ```
 <br>
 <b>Alternate Solution:</b><br>
-100 qrcodes isn't that much. Take two phones with a qrdecoder. You know what to do. :D
+100 qrcodes isn't that much. Take two phones with a qr decoder. You know what to do. :D
 <br><br>
 flag: lasactf{a_long_tw1sted_maz3}<br>
 <b>by defund</b>
