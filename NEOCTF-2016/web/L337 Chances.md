@@ -12,6 +12,6 @@ while 'neoflag{NOT_THE_FLAG}' in html:
 print(html)
 ```
 <br>
-flag: flag{T0O_M@ny_But10ns}
-<b>by defund
+flag: flag{T0O_M@ny_But10ns}<br>
+<b>by defund</b>
 
