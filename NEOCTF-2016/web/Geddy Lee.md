@@ -1,7 +1,7 @@
 <b>Problem:</b><br>
 Ah, time to work on a fresh app. Got my coffee, got my music... wait, who is that???!!<br>
 104.131.43.243:40000/<br><br>
-<b>Solution:</b><br>
+<b>Solution:<\b><br>
 Upon seeing the problem title, I noticed the problem title refers to the lead singer of the Canadian rock group, Rush. 
 Sadly, the problem had nothing to do with Rush, which is easily discovered by navigating to the site given in the problem description.
 On the site, we are given what appears to be a homepage of some sort of website using "Geddy".
