@@ -1,4 +1,4 @@
-# NeoCtf 2016
+# NEOCTF 2016
 
 Dates: 3/14/16 - 3/18/16 <br>
 Team Members: Ian, Josh, Anson, defund <br>
