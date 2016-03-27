@@ -1,7 +1,7 @@
 <b>Problem:</b><br>
 A login system asks for 10 random characters from a password. For example, "What are the 2nd, 6th, 23rd, .... characters?" The characters are always asked in the order that they appear in the password. Here is a list of 250 successful logins for an account. Find the shortest possible password that could fulfill all these logins. <br>Note: Flag not in LASACTF{} format<br><br>
 <b>Solution:</b><br>
-I observed the substrings and noticed no character appears twice in the same line. Assuming that there are no repeats in the password, I wrote this code, where ```a``` contained the substrings read from the text file. Avoid that shortest common superstring dp crap. Voila.<br><br>
+I observed the substrings and noticed no character appears twice in the same line. Assuming that there were no repeats in the password, I wrote this code, where ```a``` contained the substrings read from the text file. Avoid that shortest common superstring dp crap. Voila.<br><br>
 ```python
 a = a.split()
 a = [[c for c in x] for x in a]
