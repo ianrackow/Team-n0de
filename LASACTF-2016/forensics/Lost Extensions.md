@@ -1,4 +1,4 @@
-<b>The Problem:</b><br>
+<b>Problem:</b><br>
 This file got sad and threw away its extension! Maybe you can figure out what it's supposed to be? <br>Hint: There sure are a lot of numbers there.<br><br>
 
 <b>Solution:</b><br>
