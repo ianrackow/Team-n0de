@@ -7,7 +7,7 @@ This problem involved a bit of common sense, but my biggest asset was my search 
 <b>Step 1: Extensions.exe</b><br>
 As for many basic forensics problems, the first step I took was opening the file in a hex editor. I was met with the familiar file signiture of zip files: PK. I knew right away that this was a zip file from past experience, but a quick google search reveals that the file signiture is indeed of a zip file. The file can then be unzipped by manually changing the file extension to .zip and unzipping or by using the unzip command on terminal. Unzipping the file leaves an extensionless file called "I'mLost ;(".<br><br>
 
-<b>Step 2: The Actual Extension</b><br>
+<b>Step 2: Figuring out the Lost Extension</b><br>
 Again, I opened the file in a hex editor. Inside lie a multitude of numbers with the occasional "v", "vn", or "f" mixed in. The first result from a google search of "v vn f" reveals that the file is a .obj file (and that the numbers represent x,y,z cooridinates and other 3D properties).<br><br>
 
 <b>Step 3: Opening the file</b><br>
